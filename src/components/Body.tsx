@@ -1,8 +1,6 @@
-import { useState } from "react";
 import bgImg from "/Rectangle 1.png";
 import rectangle3 from "/Rectangle 3.png";
 export const Body = () => {
-  const [count, setCount] = useState(0);
   return (
     <section>
       <div className="pb-10">
@@ -11,10 +9,10 @@ export const Body = () => {
             className="w-full h-[471px] object-cover"
             style={{ backgroundImage: `url(${bgImg})` }}
           >
-            <div className="w-7/12 mx-24">
-              <p className="text-white uppercase tracking-tighter leading-[65px] font-saria font-bold text-[63px]">
-                One Step At a time, slowly but{" "}
-                <span className="text-teal-500">steadily</span>
+            <div className="absolute left-[160px] top-[78px] w-[750px] h-[161px]">
+              <p className="text-white tracking-tighter uppercase leading-[75px] font-saria font-bold text-[75px]">
+                One Step At a time, slowly but
+                <span className="text-teal-500"> steadily</span>
               </p>
             </div>
           </div>

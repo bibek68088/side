@@ -7,7 +7,7 @@ export const Footer = () => {
     <div>
       <footer className="w-full bg-black">
         <div className="flex justify-between p-20">
-          <div className="w-5/12">
+          <div className="w-[550px] h-[174px]">
             <p className="uppercase text-white text-4xl font-bold">
               Are You ready to take it to next <span className="text-red-500">level</span>?
             </p>
