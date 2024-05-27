@@ -1,6 +1,8 @@
+import { useState } from "react";
 import bgImg from "/Rectangle 1.png";
 import rectangle3 from "/Rectangle 3.png";
 export const Body = () => {
+  const [count, setCount] = useState(0);
   return (
     <section>
       <div className="pb-10">
@@ -29,23 +31,20 @@ export const Body = () => {
                 WHAT IS OUR MAIN GOAL?
               </h1>
               <div className="w-[523px]">
-              <p className="uppercase font-saria text-center font-medium text-xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                ligula est, semper quis nisi at, convallis dignissim dui.
-                Curabitur id quam maximus, egestas ante at, malesuada tortor.
-                Nam mollis ipsum neque, sed venenatis mauris mattis at. Donec
-                mattis felis sit amet nulla dignissna. Quisque vel sagittis leo.
-                Duis sagittis ex quam, quis ve
-              </p>
+                <p className="uppercase font-saria text-center font-medium text-xl">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+                  ligula est, semper quis nisi at, convallis dignissim dui.
+                  Curabitur id quam maximus, egestas ante at, malesuada tortor.
+                  Nam mollis ipsum neque, sed venenatis mauris mattis at. Donec
+                  mattis felis sit amet nulla dignissna. Quisque vel sagittis
+                  leo. Duis sagittis ex quam, quis ve
+                </p>
               </div>
               <button className="text-white bg-teal-700 w-[91px] h-[28px] font-bold p-1  rounded-sm font-saria">
                 SIGN UP
               </button>
             </div>
           </div>
-        </div>
-        <div>
-          <div></div>
         </div>
       </div>
     </section>
